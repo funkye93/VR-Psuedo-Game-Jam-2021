@@ -15,4 +15,6 @@ public class HandlePhysics : MonoBehaviour {
 	private void FixedUpdate() {
 		rb.MovePosition(target.transform.position);
 	}
+
+
 }
